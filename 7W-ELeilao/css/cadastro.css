@@ -1,0 +1,148 @@
+html,
+body {
+    height: 100%;
+    /* Define a altura total da página */
+    margin: 0;
+    /* Remove a margem padrão */
+    height: auto;
+}
+
+body {
+    background-color: #094F67;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    /* Utiliza flexbox para organizar o layout */
+    flex-direction: column;
+    /* Organiza os elementos em coluna */
+
+}
+
+/* HEADER------------------------*/
+header {
+    background-color: #033d58;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    /*altura e lados */
+}
+
+header .logo p {
+    font-size: 24px;
+    font-weight: 550;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    /*para nao aparecer uma lista*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    /*espaçamento entre a Home e Quem Somos*/
+}
+
+nav ul li {
+    display: inline;
+    font-weight: 500;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-buttons input[type=button] {
+    background-color: #FFCC00;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* ----------------------------*/
+
+
+
+h1 {
+    text-align: center;
+    color: rgb(230, 229, 229);
+    margin-top: 50px;
+}
+
+.leilao_img img {
+    margin-left: 140px;
+    margin-right: auto;
+    margin-top: 185px;
+}
+
+
+
+/* Estilização do formulário */
+form {
+    margin: 130px;
+    background-color: #1685b9;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+    top: 140px;
+    width: 25%;
+}
+
+form label {
+    color: white;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form input[type=date] {
+    border: 1px solid black;
+    padding: 12px 20px;
+    border-radius: 30px;
+    margin-top: 5px;
+    display: block;
+    margin-bottom: 15px;
+    width: 89%;
+    margin-top: 15px;
+}
+
+form input[type=checkbox],
+#terms {
+    margin-top: 10px;
+}
+
+form input[type=button] {
+    border: 1px solid black;
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: rgb(90, 214, 84);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 125px;
+}
+
+
+
+/* FOOTER-----------------------*/
+footer {
+    background-color: #033d58;
+    color: white;
+    padding: 40px;
+    margin-top: 250px;
+
+}
